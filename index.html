@@ -6,60 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <title>Portafdolio</title>
+    <link rel="stylesheet" href="/css/pushbar.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/assets/css/resposnive.css" media="(min-width:820px)">
 </head>
 <body>
     
     <header class="container-header">
-
+    
         <div class="menu ">
+                <a href="#"> <h3>C.Chang</h3> </a>  
+                <button data-pushbar-target="pushbar-menu" class="button-menu-open"><i class="fas fa-bars"></i> </button>        
             
-                <h3>C.Chang</h3>
-
-                <label for="btn-menu" class="label-header-icont">
-                    <i class="fas fa-bars"></i>
-                </label> 
-            
-        </div>
-        <input type="checkbox"  id="btn-menu">
-
-            <div class="container-menu">
-                <div class="nav-header">
-                
-                    <nav>
-                        <a href="/">Inicio</a>
-                        <a href="about.html">A Cerca</a>
-                        <a href="proyects.html">Proyectos</a>
-                        <a href="contact.html">Contacto</a>
-                    </nav>
-                    <label for="btn-menu" class="icono-x"><i class="fas fa-times"></i></label>
-                </div>
-            </div>      
-    </header>
-
-    <section class="container-img" >
-            <div class="container-hero">
-                <div class="contenedor-tittler">
-                    <h1>Carlos Chang</h1>
-                    <p>Web Developer</p>
-                    <a href="about.html" class="botton">Ver Más</a>
-                </div>
+                <div data-pushbar-id="pushbar-menu" data-pushbar-direction="right" class="header-nav-container" >               
+                <button  data-pushbar-close="pushbar-menu" class="button-menu-close"> <i class="far fa-window-close"></i></button>                
+                <nav class="nav-container">
+                    <a href="/">Inicio</a>
+                    <a href="about.html">A Cerca</a>
+                    <a href="proyects.html">Proyectos</a>
+                    <a href="contact.html">Contacto</a> 
+                </nav>    
             </div>
 
-            <footer class="container-footer ">
-                <nav class="nav-footer">
-                    <a href="https://www.linkedin.com/in/carlos-chang-a2587b1b7/" target="_blank"> <i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/carloschangg" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/carloschaang/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/carlos.chang.108/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                </nav>
-                <p> ©2021 - Todos Los Derechos Reservados</p>
-            </footer>
-    </section>
+        </div>
+        <div class="container-hero">
+            <div class="contenedor-tittler">
+                <h1>Carlos Chang</h1>
+                <p>Web Developer</p>
+                <a href="about.html" class="botton">Ver Más</a>
+            </div>
+        </div>
+    </header>
+  
+    <footer class="container-footer ">
+        <nav class="nav-footer">
+            <a href="https://www.linkedin.com/in/carlos-chang-a2587b1b7/" target="_blank"> <i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/carloschangg" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/carloschaang/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/carlos.chang.108/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </nav>
+            <p> ©2021 - Todos Los Derechos Reservados</p>
+    </footer>
 
       
 
       <script src="/index.js"></script>
+      <script src="/js/produccion.js"></script>
 </body>
 </html>
